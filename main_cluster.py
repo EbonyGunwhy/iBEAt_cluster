@@ -39,7 +39,8 @@ if __name__ == '__main__':
     #password = "**********"
     #path = "//mnt//fastdata//" + username #CLUSTER PATH TO SAVE DATA, ADD YOUR LOCAL PATH IF YOU WANT TO RUN IT LOCALLY
     cwd = os.getcwd()
-    path = f"{cwd}/iBEAt_cluster/data"
+    #path = f"{cwd}/iBEAt_cluster/data"
+    path = "/iBEAt_cluster/data"
     #################################################
 
     # parser = argparse.ArgumentParser()
