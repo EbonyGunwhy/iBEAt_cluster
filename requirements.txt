@@ -1,0 +1,11 @@
+numpy
+tqdm
+dbdicom
+argparse
+psutil
+mdreg==0.3.7
+opencv-python
+scikit-image
+dipy
+pydrive
+fsspec
