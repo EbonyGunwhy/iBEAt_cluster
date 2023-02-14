@@ -39,7 +39,7 @@ if __name__ == '__main__':
     #password = "**********"
     #path = "//mnt//fastdata//" + username #CLUSTER PATH TO SAVE DATA, ADD YOUR LOCAL PATH IF YOU WANT TO RUN IT LOCALLY
     cwd = os.getcwd()
-    path = f"{cwd}\\data"
+    path = f"{cwd}/data"
     #################################################
 
     # parser = argparse.ArgumentParser()
@@ -65,7 +65,7 @@ if __name__ == '__main__':
 
     #ExperimentName = xnat.main(username, password, path, dataset)
     ExperimentName = "T2SPIR"
-    pathScan = path + "//" + ExperimentName
+    pathScan = path + "/" + ExperimentName
     
     folder = db.database(path=pathScan)
 
