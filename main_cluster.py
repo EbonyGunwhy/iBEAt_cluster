@@ -75,7 +75,7 @@ if __name__ == '__main__':
     #except: 
      #   UsedCores = int(os.cpu_count())
 
-    filename_log = pathScan + datetime.datetime.now().strftime('%Y%m%d_%H%M_') + "MDRauto_LogFile.txt" #TODO FIND ANOTHER WAY TO GET A PATH
+    filename_log = cwd + "/" + pathScan + datetime.datetime.now().strftime('%Y%m%d_%H%M_') + "MDRauto_LogFile.txt" #TODO FIND ANOTHER WAY TO GET A PATH
     file = open(filename_log, 'a')
     file.write(str(datetime.datetime.now())[0:19] + ": Analysis of " + pathScan.split('//')[-1] +  " has started!")
     #file.write("\n"+str(datetime.datetime.now())[0:19] + ": CPU cores: " + str(UsedCores))
